@@ -12,7 +12,9 @@
 		7472411B20FDD61B0068CADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7472411920FDD61B0068CADC /* Main.storyboard */; };
 		7472411D20FDD61D0068CADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7472411C20FDD61D0068CADC /* Assets.xcassets */; };
 		7472412020FDD61D0068CADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7472411E20FDD61D0068CADC /* LaunchScreen.storyboard */; };
-		7472412B20FDD61D0068CADC /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472412A20FDD61D0068CADC /* ToDoTests.swift */; };
+		7472413620FDEFA50068CADC /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472413520FDEFA50068CADC /* ToDoItemTests.swift */; };
+		7472413820FE28C70068CADC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472413720FE28C70068CADC /* ToDoItem.swift */; };
+		7472413A20FE34B20068CADC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472413920FE34B20068CADC /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +36,10 @@
 		7472411F20FDD61D0068CADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7472412120FDD61D0068CADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7472412620FDD61D0068CADC /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7472412A20FDD61D0068CADC /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		7472412C20FDD61D0068CADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7472413520FDEFA50068CADC /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
+		7472413720FE28C70068CADC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		7472413920FE34B20068CADC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				7472411C20FDD61D0068CADC /* Assets.xcassets */,
 				7472411E20FDD61D0068CADC /* LaunchScreen.storyboard */,
 				7472412120FDD61D0068CADC /* Info.plist */,
+				7472413720FE28C70068CADC /* ToDoItem.swift */,
+				7472413920FE34B20068CADC /* Location.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -90,7 +96,7 @@
 		7472412920FDD61D0068CADC /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				7472412A20FDD61D0068CADC /* ToDoTests.swift */,
+				7472413520FDEFA50068CADC /* ToDoItemTests.swift */,
 				7472412C20FDD61D0068CADC /* Info.plist */,
 			);
 			path = ToDoTests;
@@ -199,6 +205,8 @@
 			files = (
 				7472411820FDD61B0068CADC /* ViewController.swift in Sources */,
 				7472411620FDD61B0068CADC /* AppDelegate.swift in Sources */,
+				7472413A20FE34B20068CADC /* Location.swift in Sources */,
+				7472413820FE28C70068CADC /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7472412B20FDD61D0068CADC /* ToDoTests.swift in Sources */,
+				7472413620FDEFA50068CADC /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
