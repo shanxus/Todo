@@ -129,6 +129,15 @@ class ItemManagerTests: XCTestCase {
         
         XCTAssertNotEqual(firstLocation, secondLocation, line: line)
     }
+    
+    func test_Locations_WhenOnlyOneHasCoordinate_AreNotEqual() {
+        
+        assertLocationNotEqualWith(firstName: "Foo", firstLongLat: (0.0, 0.0), secondName: "Foo", secondLongLat: nil, line: 133)
+    }
+    
+    func test_Locations_WhenNamesDiffer_AreNotEqual() {
+        assertLocationNotEqualWith(firstName: "Foo", firstLongLat: nil, secondName: "Bar", secondLongLat: nil, line: 138)
+    }
 }
 
 

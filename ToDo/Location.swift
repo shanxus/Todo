@@ -28,5 +28,9 @@ func ==(lhs: Location, rhs: Location) -> Bool {
         return false
     }
     
+    if lhs.name != rhs.name {
+        return false
+    }
+    
     return true
 }
