@@ -138,6 +138,27 @@ class ItemManagerTests: XCTestCase {
     func test_Locations_WhenNamesDiffer_AreNotEqual() {
         assertLocationNotEqualWith(firstName: "Foo", firstLongLat: nil, secondName: "Bar", secondLongLat: nil, line: 138)
     }
+    
+    func test_RemoveAll_ResultsInCountsBeZero() {
+        sut.add(ToDoItem(title: "Foo"))
+        sut.add(ToDoItem(title: "Bar"))
+        sut.checkItem(at: 0)
+        
+        XCTAssertEqual(sut.toDoCount, 1)
+        XCTAssertEqual(sut.doneCount, 1)
+        
+        sut.removeAll()
+        
+        XCTAssertEqual(sut.toDoCount, 0)
+        XCTAssertEqual(sut.doneCount, 0)
+    }
+    
+    func test_Add_WhenItemIsAlreadyAdded_DoseNotIncreasCount() {
+        sut.add(ToDoItem(title: "Foo"))
+        sut.add(ToDoItem(title: "Foo"))
+        
+        XCTAssertEqual(sut.toDoCount, 1)
+    }
 }
 
 
