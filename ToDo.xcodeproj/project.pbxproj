@@ -17,6 +17,7 @@
 		7472413820FE28C70068CADC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472413720FE28C70068CADC /* ToDoItem.swift */; };
 		7472413A20FE34B20068CADC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472413920FE34B20068CADC /* Location.swift */; };
 		74A3D62B20FF7C2100DC0F96 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3D62A20FF7C2100DC0F96 /* LocationTests.swift */; };
+		74B64D4B210DB82C00A6327D /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B64D4A210DB82C00A6327D /* ItemListDataProviderTests.swift */; };
 		74E1986E210462FD00FEA1A8 /* ItemListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1986D210462FD00FEA1A8 /* ItemListViewControllerTest.swift */; };
 		74E198702104654F00FEA1A8 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1986F2104654F00FEA1A8 /* ItemListViewController.swift */; };
 		74E1987221046A1E00FEA1A8 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1987121046A1E00FEA1A8 /* ItemListDataProvider.swift */; };
@@ -47,6 +48,7 @@
 		7472413720FE28C70068CADC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		7472413920FE34B20068CADC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		74A3D62A20FF7C2100DC0F96 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		74B64D4A210DB82C00A6327D /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		74E1986D210462FD00FEA1A8 /* ItemListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTest.swift; sourceTree = "<group>"; };
 		74E1986F2104654F00FEA1A8 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		74E1987121046A1E00FEA1A8 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				743FDE452100397D00B1A31F /* Model */,
 				7472412C20FDD61D0068CADC /* Info.plist */,
 				74E1986D210462FD00FEA1A8 /* ItemListViewControllerTest.swift */,
+				74B64D4A210DB82C00A6327D /* ItemListDataProviderTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B64D4B210DB82C00A6327D /* ItemListDataProviderTests.swift in Sources */,
 				743FDE442100397300B1A31F /* ItemManagerTests.swift in Sources */,
 				74A3D62B20FF7C2100DC0F96 /* LocationTests.swift in Sources */,
 				74E1986E210462FD00FEA1A8 /* ItemListViewControllerTest.swift in Sources */,
